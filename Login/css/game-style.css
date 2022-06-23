@@ -1,0 +1,255 @@
+/**
+ * Базовые стили для всего сайта
+ */
+ body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+
+/**
+ * Другие стили
+ */
+
+ .backgraund{
+	width: auto;
+	height: 1000px;
+	background: #E5FDFB;
+}
+
+.navbar{
+	width: 100%;
+	height: 70%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.navbar .container{
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-menu{
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.navbar-menu li {
+	display: inline-block;
+}
+
+.navbar-menu li a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+	display: inline-block;
+	color: #000;
+	opacity: 1;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.navbar-wrap{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.callback{
+	margin-left: 30px;
+	padding: 10px 30px;
+	background-color: coral;
+	border-radius: 100px;
+	color: #000;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+	transition: all .1s ease-in-out;
+}
+
+.callback:hover{
+	transform: scale(1.4);
+	color: #000;
+	box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+}
+
+.navbar-brand{
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand:hover{
+	color: coral;
+}
+
+
+
+
+
+.backgraund{
+	width: auto;
+	height: 1000px;
+	background: #E5FDFB;
+}
+
+.menu{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: calc(26% - 307px/2 - 312.5px);
+	background: linear-gradient(to bottom, #65dfe7, #066774, #082eac);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	border: 1px solid #000000;
+}
+
+.sgf{
+	border: 1px solid #000000;
+	position: absolute;
+	width: 223px;
+	height: 33px;
+	left: 41px;
+	top: 30px;
+	background: #86CCC8;
+	border-radius: 10px;
+}
+
+.tçf{
+	border: 1px solid #000000;
+	position: absolute;
+	width: 223px;
+	height: 36px;
+	left: 41px;
+	top: 80px;
+	background: #86CCC8;
+	border-radius: 10px;
+}
+
+.qaf{
+	border: 1px solid #000000;
+	position: absolute;
+	width: 223px;
+	height: 36px;
+	left: 41px;
+	top: 130px;
+	background: #86CCC8;
+	border-radius: 10px;
+}
+
+.qif{
+	border: 1px solid #000000;
+	position: absolute;
+	width: 223px;
+	height: 36px;
+	left: 41px;
+	top: 180px;
+	background: #86CCC8;
+	border-radius: 10px;
+}
+
+.sxf{
+	border: 1px solid #000000;
+	position: absolute;
+	width: 223px;
+	height: 36px;
+	left: 41px;
+	top: 230px;
+	background: #86CCC8;
+	border-radius: 10px;
+}
+
+.text1{
+	font-weight: 500;
+	font-size: 20px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	transition: all 0.3s ease-in-out;
+}
+
+.text1:hover{
+	color: brown;
+}
+
+.menu li {
+	text-align: center;
+	color: rgba(0, 0, 0, 0.7);
+	text-decoration: none;
+	margin-left: 30px;
+
+}
+
+.z1{
+	position: absolute;
+	width: 48px;
+	height: 12px;
+	top: 110px;
+	background: linear-gradient(to bottom, #383838, #ffffff, #383838);
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+}
+
+.z2{
+	position: absolute;
+	width: 48px;
+	height: 12px;
+	top: 150px;
+	background: linear-gradient(to bottom, #383838, #ffffff, #383838);
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+}
+
+.z3{
+	position: absolute;
+	width: 48px;
+	height: 12px;
+	top: 190px;
+	background: linear-gradient(to bottom, #383838, #ffffff, #383838);
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+}
+
+.z4{
+	position: absolute;
+	width: 48px;
+	height: 12px;
+	top: 230px;
+	background: linear-gradient(to bottom, #383838, #ffffff, #383838);
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+}
+
+.z5{
+	position: absolute;
+	width: 48px;
+	height: 12px;
+	top: 270px;
+	background: linear-gradient(to bottom, #383838, #ffffff, #383838);
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+}
+
+.z6{
+	position: absolute;
+	width: 48px;
+	height: 12px;
+	top: 310px;
+	background: linear-gradient(to bottom, #383838, #ffffff, #383838);
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+}
+

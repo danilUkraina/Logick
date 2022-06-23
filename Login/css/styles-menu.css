@@ -1,0 +1,285 @@
+/**
+ * Базовые стили для всего сайта
+ */
+ body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+/**
+ * Другие стили
+ */
+ 
+.backgraund{
+	width: auto;
+	height: 1000px;
+	background: #E5FDFB;
+}
+.navbar{
+	width: 100%;
+	height: 70%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.navbar .container{
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-menu{
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.navbar-menu li {
+	display: inline-block;
+}
+
+.navbar-menu li a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+	display: inline-block;
+	color: #000;
+	opacity: 1;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.navbar-wrap{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.callback{
+	margin-left: 30px;
+	padding: 10px 30px;
+	background-color: coral;
+	border-radius: 100px;
+	color: #000;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+	transition: all .1s ease-in-out;
+}
+
+.callback:hover{
+	transform: scale(1.4);
+	color: #000;
+	box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+}
+
+.navbar-brand{
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand:hover{
+	color: coral;
+}
+
+.product {
+	margin-bottom: 30px;
+}
+
+.image{
+	margin-bottom: 10px;
+}
+
+.image img{
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 7px;
+}
+
+.info h3 {
+	font-size: 21px;
+	margin-bottom: 0;
+	text-align: center;
+	
+}
+
+.info p {
+	text-align: center;
+	
+}
+
+.add-to-cart {
+	border: none;
+	width: 40px;
+	height: 40px;	
+	display: flex;	
+	align-items: center;
+	justify-content: center;
+	background-color: #8bc34a;
+	color: #000;
+	border-radius: 5px;
+}
+
+.add-to-cart:hover {
+	transform: scale(1.4);
+	color: #000;
+	box-shadow: 0 9px 9px rgba(12, 116, 12, 0.5);
+	transition: all 0.3s ease-in-out;
+}
+
+.rating {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.rating li {
+	display: inline-block;
+	color: rgb(211, 164, 44);
+}
+
+.info-price {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+
+}
+
+.price {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.header {
+	position: relative;
+	min-width: 700px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.header .row{
+	min-height: 700px;
+	display: flex;
+	align-items: center;
+}
+
+.header-content{
+	position: relative;
+	z-index: 2;
+	color: #000;
+}
+
+.header-content h1{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 18px;	
+}
+
+.header-content h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 18px;	
+}
+
+.header-content p{
+	margin-bottom: 10px;
+	opacity: 0.7;	
+	margin: 0 0 10px;
+}
+
+.btn-main{
+	padding: 10px 30px;
+	background-color: rgb(80, 135, 255);
+	border-radius: 100px;
+	color: #000;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(80, 214, 255, 0.2);
+	transition: all .1s ease-in-out;
+	margin-bottom: 20px;
+}
+
+.btn-main:hover{
+	transform: scale(1.4);
+	color: #000;
+	box-shadow: 0 9px 9px rgba(30, 159, 233, 0.5);
+	margin-bottom: 20px;
+}
+
+.sb-logo{
+	height: 300px;
+	width: 99%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.img-esc{
+	height: 300px;
+	width: 99%;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-menu{
+	color: #fff;
+	padding: 10px 20px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	border-radius: 7px;
+	width: 150px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 1;
+}
+
+.dropdown-menu.show{
+	z-index: 99;
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.dropdown-menu a{
+	display: block;
+	padding: 10px 0;
+	color: #000;
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+.dropdown-menu a:hover{
+	opacity: 1;
+	color: darkgreen;
+}
+
+
+
+
+
+
+
